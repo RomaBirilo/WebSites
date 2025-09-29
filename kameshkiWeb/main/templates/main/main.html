@@ -1,0 +1,21 @@
+{% extends 'main/layout.html' %}
+
+
+{% block title%} Home {% endblock %}
+
+{% block body %}
+<div class="main_page">
+    <h2 class="display-5 fw-bold mb-4">A little about us</h2>
+    <p class="lead mb-3">
+        This website is dedicated to purchasing souvenir stones.
+        Here you'll find numerous collections dedicated to various holidays and events.
+    </p>
+    <p class="lead mb-4">
+        These sets make excellent gifts for anyone who loves collecting souvenirs,
+        or they'll make wonderful decorations for your home.
+    </p>
+     <a href="{% url 'collections' %}" class="btn btn-warning btn-lg">
+      <i class="fa-solid fa-gift"></i> See the magnificence <i class="fa-solid fa-gift"></i>
+    </a>
+</div>
+{% endblock %}

@@ -1,0 +1,150 @@
+body{
+background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)),url('../img/background-collections.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+aside{
+float: left;
+color: white;
+background:linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),url('../img/background-main.png');
+width:15%;
+padding: 2.5%;
+height: 100vh;
+border-right: 1px solid #a232a8;
+}
+
+ul{
+margin-top: 100px;
+list-style: none;
+margin-left: -22px;
+}
+
+ul li{
+margin: 5px;
+display: flex;
+align-items: center;
+gap: 10px;
+font-size: 20px;
+}
+
+a{
+text-decoration: none;
+color: white;
+display: inline-block;
+transition: transform .4s ease;
+}
+
+a:hover{
+color:yellow;
+transform: scale(1.1);
+}
+
+.main_page{
+color:white;
+text-align: center;
+padding-top: 10%;
+}
+
+.main_page p{
+margin-top: 50px;
+font-size: 22px;
+}
+
+.btn-warning {
+color:white;
+transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.btn-warning:hover {
+color:white;
+transform: scale(1.05);
+box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.collections_page{
+color: white;
+font-size: 22px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+padding: 18%px;
+}
+
+.collections_page img{
+width: 200px;
+}
+
+.new_year{
+font-size: 30px;
+font-weight: bold;
+
+background: linear-gradient(to right, #8f0303, #bd9402);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.halloween{
+font-size: 30px;
+font-weight: bold;
+background: linear-gradient(to right, #000000, #ff6600);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.summer{
+font-size: 30px;
+font-weight: bold;
+background: linear-gradient(to right, #14AD00, #0034F2);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.base_col{
+font-size: 25px;
+font-weight: bold;
+background: linear-gradient(to right, #2A7B9B, #57C785,#EDDD53);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.desert_col{
+font-size: 25px;
+font-weight: bold;
+background: linear-gradient(to right, #DE9B00, #524D06);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.ocean_col{
+font-size: 25px;
+font-weight: bold;
+background: linear-gradient(to right, #020024, #090979, #00D4FF);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.titan_col{
+font-size: 25px;
+font-weight: bold;
+background: linear-gradient(to right, #757575, #33322D);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.lava_col{
+font-size: 25px;
+font-weight: bold;
+background: linear-gradient(to right, #872400, #AB5300);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.fade_col{
+font-size: 25px;
+font-weight: bold;
+background: linear-gradient(to right, #833AB4, #FD1D1D,#FCB045);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}

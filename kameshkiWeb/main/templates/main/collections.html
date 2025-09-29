@@ -1,0 +1,40 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block title%} Collections {% endblock %}
+
+{% block body %}
+<div class="collections_page">
+    <table>
+        <tr>
+            <th class="new_year"> New Year</th>
+            <th class="halloween"> Halloween</th>
+            <th class="summer"> Summer Vibe</th>
+        </tr>
+        <tr>
+            <th> <img src="{% static 'main/img/new-year-2.png' %}" alt=""> </th>
+            <th> <img src="{% static 'main/img/halloween-2.png' %}" alt=""> </th>
+            <th> <img src="{% static 'main/img/summer-vibe.png' %}" alt=""> </th>
+        </tr>
+        <tr>
+            <th class="base_col"> Base Collection</th>
+            <th class="desert_col"> Desert Collection </th>
+            <th class="ocean_col"> Ocean Collection</th>
+        </tr>
+         <tr>
+            <th> <img src="{% static 'main/img/collection.jpg' %}" alt=""> </th>
+            <th> <img src="{% static 'main/img/collection-2-brown.jpg' %}" alt=""> </th>
+            <th> <img src="{% static 'main/img/collection-6-ocean.jpg' %}" alt=""> </th>
+        </tr>
+        <tr>
+            <th class="titan_col"> Titan Collection</th>
+            <th class="lava_col"> Lava Collection </th>
+            <th class="fade_col"> Fade Collection</th>
+        </tr>
+         <tr>
+            <th> <img src="{% static 'main/img/collection-3-titan.jpg' %}" alt=""> </th>
+            <th> <img src="{% static 'main/img/collection-4-lava.jpg' %}" alt=""> </th>
+            <th> <img src="{% static 'main/img/collection-5-fade.png' %}" alt=""> </th>
+        </tr>
+    </table>
+</div>
+{% endblock %}
